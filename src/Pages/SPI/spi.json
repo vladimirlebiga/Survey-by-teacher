@@ -1,0 +1,128 @@
+{
+  "id":2,
+  "code": "inventory",
+  "name": "Sensory Preferences Inventory",
+  "description": "",
+  "instructions": "Answer each question using the scale provided.",
+  "thankyou": "Thank you for completing the a/A Sensory Preferences Inventory.",
+  "autoreport": "inventory-results",
+  "copyright": "\u00A9 2020 a/A Forms, Inc. All rights reserved.",
+  "questions": [
+    {
+      "id": "section",
+      "code": "section1",
+      "type": "section",
+      "instructions": "To improve accuracy, answer each question quickly with your first 'gut instinct'. You will not be able to go back and change answers after clicking next."
+    },
+    {
+      "id": "sight",
+      "code":"q1",
+      "type": "checkbox",
+      "stem": "I learn the most when the lesson engages my sense of sight.",
+      "scale": "Agreement"
+    },
+    {
+      "id": "hearing",
+      "code":"q2",
+      "type": "checkbox",
+      "stem": "I learn the most when the lesson engages my sense of hearing.",
+      "scale": "Agreement"
+    },
+    {
+      "id": "taste",
+      "code":"q3",
+      "type": "checkbox",
+      "stem": "I learn the most when the lesson engages my sense of touch, taste, or smell.",
+      "scale": "Agreement",
+      "pagebreak": true
+    },
+    {
+      "id": "see",
+      "code":"q4",
+      "type": "checkbox",
+      "stem": "I find it easiest to remember things I see rather than things I hear or do.",
+      "scale": "Agreement"
+    },
+    {
+      "id": "hear",
+      "code":"q5",
+      "type": "checkbox",
+      "stem": "I find it easiest to remember things I hear rather than things I see or do.",
+      "scale": "Agreement"
+    },
+    {
+      "id": "do",
+      "code":"q6",
+      "type": "checkbox",
+      "stem": "I find it easiest to remember things I do rather than things I see or hear.",
+      "scale": "Agreement",
+      "pagebreak": true
+    },
+    {
+      "id": "listen",
+      "code":"q7",
+      "type": "checkbox",
+      "stem": "I would rather look at photos than listen to music or workout (physical exercise).",
+      "scale": "Agreement"
+    },
+    {
+      "id": "workout",
+      "code":"q8",
+      "type": "checkbox",
+      "stem": "I would rather listen to music than look at photos or workout (physical exercise).",
+      "scale": "Agreement"
+    },
+    {
+      "id": "exercise",
+      "code":"q9",
+      "type": "checkbox",
+      "stem": "I would rather workout (physical exercise) than look at photos or listen to music.",
+      "scale": "Agreement",
+      "pagebreak": true
+    },
+    {
+      "id": "remember",
+      "code":"q10",
+      "type": "checkbox",
+      "stem": "The lessons I remember best are those in which I had to use my sense of sight.",
+      "scale": "Agreement"
+    },
+    {
+      "id": "sense",
+      "code":"q11",
+      "type": "checkbox",
+      "stem": "The lessons I remember best are those in which I had to use my sense of hearing.",
+      "scale": "Agreement"
+    },
+    {
+      "id": "use",
+      "code":"q12",
+      "type": "checkbox",
+      "stem": "The lessons I remember best are those in which I had to use my sense of touch, smell or taste.",
+      "scale": "Agreement",
+      "pagebreak": true
+    },
+    {
+      "id": "read",
+      "code":"q13",
+      "type": "checkbox",
+      "stem": "When I get a new device, I usually read the instructions to learn how to operate it.",
+      "scale": "Agreement"
+    },
+    {
+      "id": "explain",
+      "code":"q14",
+      "type": "range",
+      "stem": "When I get a new device, I usually ask someone to explain verbally how to operate it.",
+      "scale": "Agreement"
+    },
+    {
+      "id": "approach",
+      "code":"q15",
+      "type": "radio",
+      "stem": "When I get a new device, I usually try a hands-on approach to figure out how to operate it.  ",
+      "scale": "Agreement",
+      "pagebreak": true
+    }
+  ]
+}
